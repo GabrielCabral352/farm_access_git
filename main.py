@@ -1,7 +1,7 @@
 from random import randint
 import os
 
-for i in range(10):
+for i in range(50):
     with open("commiter.txt", "a") as file:
         file.write(str(randint(1,200000)))
         os.system("git add *")
